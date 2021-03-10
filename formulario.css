@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    color: rgb(95, 70, 70);
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+body{
+    
+        width: 100%;
+        max-width: 500px;
+        margin: 32px auto;
+        padding: 32px 64px;
+    
+}
+
+div{
+  width: 420px;
+  padding: 10px;
+  margin: 0;
+  margin-left: 50;
+  text-align: center ;
+  
+  
+}
+
+#area-logo {
+    padding:10px;
+    background-color:#55e9b8;
+    color:rgb(248, 247, 248);
+    margin-right: -2000;
+    margin-bottom: 20px;
+    border-radius: 95px;
+};
+h1{
+    color:#4e4e4e;
+    font-size: 2.5em;
+    
+
+}
+
+h3{
+    margin-top: 10px;
+    font-weight: 200;
+}
+h5{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+hr{
+    margin-top: 20px;
+}
+.preto{
+    color:rgb(63, 48, 48);
+
+}
+
+
+.campo, label {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.campo label{
+    color:#070005;
+    margin-left: 5px;
+    margin-bottom: 0.3em;
+    display:block ;
+}
+
+body{
+    background-color:#8613f3 ;
+    color: #f6f5f7;
+    font-family: sans-serif;
+    font-size: 1em;
+    
+    margin-left:36;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select,textarea{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #1e4b44;
+    border-radius: 5px;
+ 
+}
+
+.b-enviar,.b-limpar{
+    padding: 15px;
+    width: 150px;
+    border:none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 450;
+    cursor: pointer;
+    
+}
+
+button {
+    transition: 0.3s;
+}
+button::after{
+    border: none;
+}
+
+.b-enviar {
+    background-color:#55e9b8 ;
+}
+
+.b-enviar:hover {
+    opacity: 80%;
+}
+.b-limpar{
+  background-color:   #ff3796;
+}
+
+.b-limpar:hover {
+    opacity: 80%;
+}
+.input-dp{  
+    width: 200px;
+    padding: 10px;
+    border-radius: 60px;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.3);
+}
+
+
+
+#area-principal {
+    background-color:#f6f5f7;
+    border-radius: 85px;
+    padding: 30px;
+}
